@@ -1,1 +1,170 @@
-/* All style should go in this document. */
+html{ font-family: cursive;}
+body
+{
+	height:1600px;background: -webkit-linear-gradient(black , white ); 
+}
+#personal
+{
+	position: absolute;
+	top:0px;
+	width:100%;
+	left:0px;
+	font-family: cursive;
+	text-align: center;
+	color: white ;
+	
+}
+#goal
+{
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	top:239px;
+	left: 0px;
+	border-style: groove;
+	color: white;
+	
+
+
+}
+#goal2
+{
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	top:429px;
+	left: 0px;
+	border-bottom:  groove;
+	border-left: groove;
+	border-right: groove;
+	color: white;
+}
+#skills
+{
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	top:1035px;
+	left: 0px;
+	border-bottom:  groove;
+	border-left: groove;
+	border-right: groove;
+	color: white;
+}
+img.prof
+{
+	border-style: inset;
+	border-width: .1em;
+	border-color: rgb(242,242,242);
+	position: absolute;
+	top:2%;
+	right: 2%;
+	width: 20%;
+	opacity: ..8;
+}
+img.logo
+{
+	width: 10%;
+	float: left;
+	opacity: .5;
+}
+#subgoal
+{
+	text-align: left;
+	color:white;
+}
+caption
+{
+	text-align: center;
+	font-weight: bold;
+}
+table
+{
+	width: 100%;padding: 0px;
+}
+td
+{
+	text-align: left;
+}
+tr,td
+{
+	padding: 0px;
+}
+#fix
+{
+	width:40%;
+	font-size: 150%;
+	text-decoration: underline;
+}
+#fix2
+{
+	width:35%;
+	font-size: 150%;
+	text-decoration: underline;
+	text-align: left;
+}
+td.tab
+{
+	text-align: center;
+}
+a:link
+{
+	text-decoration: none;color: white;
+}
+a:visited
+{
+
+	text-decoration: none;color: white;	
+}
+a:hover
+{
+	color:  gray;
+}
+
+#top a:link
+{
+	color:black;
+}
+#top a:visited
+{
+
+	color: black
+}
+#top a:hover
+{
+	color:gray;
+}
+#table
+{
+		position: absolute;
+	top:2%;
+	left: 2%;
+}
+
+#top
+{
+	position:fixed;
+	bottom:0%;
+	right:2%;
+}
+td.newalign
+{
+	width:35%;
+	text-align: right;
+}
+td.newalign2
+{
+	width:25%;
+}
+#project
+{
+	position: absolute;
+	width: 100%;
+	text-align:center;
+	top:1275px;
+	left: 0px;
+	border-bottom:  groove;
+	border-left: groove;
+	border-right: groove;
+	color: white;
+}
