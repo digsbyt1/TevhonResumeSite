@@ -250,20 +250,20 @@ a:hover
 	}
 	#personal
 	{
-		top:150px;
+		top:180px;
 		margin-left:auto;
 		margin-right:auto;
 		right:0%;
 	}
 	#case
 	{	
-		top:30px;	
-		width:90%;
-		left:5%;
+		top:60px;	
+		width:98%;
+		left:1%;
 	}
 	#image
 	{
-		top:-230px;
+		top:-200px;
 		left:1%;
 		position:relative;
 		display:block;
@@ -272,6 +272,21 @@ a:hover
 	}
 	#top
 	{
-		right:7%;
+		right:2%;
 	}
+	#top a:link
+	{
+		color:red;
+	}
+	#top a:visited
+	{
+		color:red;
+	}
+	#top a:hover
+	{
+		color:blue;
+	}
+
+	.border1{border-style:none;}
+	.border2{width:100%;left:0px;}
 }
