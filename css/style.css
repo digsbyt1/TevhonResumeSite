@@ -50,6 +50,7 @@
 }
 html
 {
+	text-overflow:clip;
 	font-family: cursive;
 	background: -webkit-linear-gradient(black,gray) no-repeat;
 	background: -o-linear-gradient(black,gray) no-repeat ;
@@ -243,5 +244,34 @@ a:hover
 }
 @media screen and (max-width:700px)
 {
-	html{max-width:900px;}
+	html
+	{
+		-webkit-background-size:900%;	
+	}
+	#personal
+	{
+		top:150px;
+		margin-left:auto;
+		margin-right:auto;
+		right:0%;
+	}
+	#case
+	{	
+		top:30px;	
+		width:90%;
+		left:5%;
+	}
+	#image
+	{
+		top:-230px;
+		left:1%;
+		position:relative;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#top
+	{
+		right:7%;
+	}
 }
