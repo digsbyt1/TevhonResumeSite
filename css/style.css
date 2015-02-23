@@ -1,28 +1,91 @@
-html{ font-family: cursive;}
-body
+#image2
 {
-	height:100% ;background: -webkit-linear-gradient(black , gray ); 
+	position:relative;
+	box-shadow:10px 0px 20px white;	
 }
-#personal
+.border2
 {
-	position: relative;
-	top:0%;
+	position:relative;
+	box-shadow:10px 0px 20px white;
+	width:80%;
+	left:10%;
+}
+#image
+{	position:absolute;
+	top:2%;
+	right:10%;
+	width:200px;
+	height:133px;
+	box-shadow:-10px 0px 20px white;
+
+}
+#case2
+{
+	position:relative;
 	width:100%;
 	left:0%;
+	background: -webkit-linear-gradient(gray,black);
+	background: -o-linear-gradient(gray,black);
+	background: -moz-linear-gradient(gray,black);
+	background: linear-gradient(gray,black);
+	box-shadow: -20px 0px 20px white;
+}
+#case
+{
+	position:relative;
+	width:80%;
+	left:10%;
+	background: -webkit-linear-gradient(gray,black);
+	background: -o-linear-gradient(gray,black);
+	background: -moz-linear-gradient(gray,black);
+	background: linear-gradient(gray,black);
+	box-shadow:20px 0px 20px  white;
+}
+.border1
+{
+	box-shadow:-20px 0px 20px white;
+	position:relative;
+	width:100%;
+	border-style:groove;
+}
+html
+{
+	font-family: cursive;
+	background: -webkit-linear-gradient(black,gray) no-repeat;
+	background: -o-linear-gradient(black,gray) no-repeat ;
+	background: -moz-linear-gradient(black,gray) no-repeat ;
+	bakground: linear-gradient(black,gray) no-repeat ; 
+}
+#personal
+{	
+	position: relative;
+	width:100%;
 	font-family: cursive;
 	text-align: center;
-	color: white ;
+	color:white ;
 	
 }
-#goal
+#personal a:link
 {
-	position: relative;
+	color:white;
+}
+#personal a:visited
+{
+	color:white;
+}
+#personal a:hover
+{
+	color:gray;
+}
+#info
+{
+	position:relative;
 	width: 100%;
 	text-align:center;
 	top:0%;
 	left: 0%;
 	border-style: groove;
-	color: white;
+	color:white;
 	
 
 
@@ -37,43 +100,15 @@ body
 	border-bottom:  groove;
 	border-left: groove;
 	border-right: groove;
-	color: white;
-}
-#skills
-{
-	margin-bottom: 0%;
-	padding-bottom: 0%;
-	position: relative;
-	width: 100%;
-	text-align:center;
-	top:0%;
-	left: 0%;
-	border-bottom:  groove;
-	border-left: groove;
-	border-right: groove;
-	color: white;
-}
-img.prof
-{
-	border-style: inset;
-	border-width: .1em;
-	border-color: rgb(242,242,242);
-	position: absolute;
-	top:2%;
-	right: 2%;
-	width: 20%;
-	opacity: .8;
-}
-img.logo
-{
-	width: 10%;
-	float: left;
-	opacity: .5;
-}
-#subgoal
-{
-	text-align: left;
 	color:white;
+}
+img
+{
+	position :relative;
+	height:100%;
+	width:100%;
+	border-style:groove;
+	margin-bottom:-6px; 
 }
 caption
 {
@@ -111,12 +146,11 @@ td.tab
 }
 a:link
 {
-	text-decoration: none;color: white;
+	text-decoration: none;color:white;
 }
 a:visited
 {
-
-	text-decoration: none;color: white;	
+	text-decoration: none;color:white;	
 }
 a:hover
 {
@@ -125,58 +159,89 @@ a:hover
 
 #top a:link
 {
-	color:black;
+	color:white;
 }
 #top a:visited
 {
 
-	color: black
+	color: white;
 }
 #top a:hover
 {
-	color:white;
+	color:gray;
 }
 #table
 {
-		position: absolute;
+	position: absolute;
 	top:2%;
 	left: 2%;
 }
-
+#table a:link
+{
+	color:white;
+}
+#table a:visited
+{
+	color:white;
+}
+#table a:hover
+{
+	color:gray;
+}
 #top
 {
 	position:fixed;
 	bottom:0%;
 	right:2%;
 }
-td.newalign
+#newalign
 {
 	width:35%;
 	text-align: right;
 }
-td.newalign2
+#newalign2
 {
 	width:25%;
 }
-#project
-{
-	margin-top: -1.7%;
-	padding-top: 0%;
-	position: relative;
-	width: 100%;
-	text-align:center;
-	top:0%;
-	left: 0%;
-	border-bottom:  groove;
-	border-left: groove;
-	border-right: groove;
-	color: white;
-}
-.under
+#bottom
 {
 	text-decoration: underline;
 }
-.under a:hover
+#bottom a:hover
 {
 	color: black;
+}
+@media screen and (max-width:1004px)
+{
+	html
+	{
+		background: -webkit-linear-gradient(black,gray);
+		-webkit-background-size:150%;
+		top:0%;
+	}
+	#personal
+	{
+		margin-left:auto;
+		margin-right:auto;
+		top:170px;
+		right:0%;
+		
+	}
+	#case
+	{
+		top:40px;
+		right:40px;
+	}
+	#image
+	{	right:0%;	
+		top:-200px;
+		position:relative;
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+	}		
+}
+@media screen and (max-width:700px)
+{
+	html{max-width:900px;}
 }
