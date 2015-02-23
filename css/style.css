@@ -211,7 +211,7 @@ a:hover
 {
 	color: black;
 }
-@media screen and (max-width:1004px)
+@media screen and (max-width:1004px) and (min-width:701px) 
 {
 	html
 	{
